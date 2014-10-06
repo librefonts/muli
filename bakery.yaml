@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Muli-LightItalic.ttf.ttx, Muli-Italic.ttf.ttx, Muli-Regular.ttf.ttx,
+  Muli-Light.ttf.ttx, src/Muli-Italic-TTF.sfd, src/Muli-Regular-TTF.sfd, src/Muli-LightItalic-TTF.sfd,
+  src/Muli-Light-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
